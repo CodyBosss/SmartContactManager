@@ -2,18 +2,12 @@ package com.smartsaver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.builder.SpringApplicationBuilder;
-import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class SmartContactSaverApplication extends SpringBootServletInitializer {
+public class SmartcontactsaverApplication {
 
-    public static void main(String[] args) {
-        SpringApplication.run(SmartContactSaverApplication.class, args);
-    }
+	public static void main(String[] args) {
+		SpringApplication.run(SmartcontactsaverApplication.class, args);
+	}
 
-    @Override
-    protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-        return application.sources(SmartContactSaverApplication.class);
-    }
 }
